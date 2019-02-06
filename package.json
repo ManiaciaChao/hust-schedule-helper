@@ -1,0 +1,19 @@
+{
+  "name": "hust-schedule-helper",
+  "version": "1.0.0",
+  "description": "Import husters' schedules from HUST Hub to your calendar.",
+  "main": "./dist/app.js",
+  "repository": "git@github.com:ManiaciaChao/hust-schedule-helper.git",
+  "author": "maniacata <maniaciachao@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node ./dist/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "got": "^9.6.0",
+    "json-2-csv": "^3.2.0",
+    "readline-sync": "^1.4.9",
+    "tough-cookie": "^3.0.1"
+  }
+}
